@@ -1,0 +1,18 @@
+.h1 {
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0;
+    line-height: normal;
+}
+.h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+    line-height: normal;
+}
+.h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    line-height: normal;
+}
