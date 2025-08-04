@@ -1,8 +1,7 @@
-
 :root {
     --black: #3b434e;
-    --gray-light: #EBEBEB;
-    --white:#FFFFFF;
+    --gray-light: #ebebeb;
+    --white: #ffffff;
     --primary: #7653fc;
     --primary-hover: #6344df;
     --red: #fc836d;
@@ -18,7 +17,7 @@ body {
 
 body {
     color: var(--black);
-    background: #F5F6F8
+    background: #f5f6f8;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

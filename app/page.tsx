@@ -6,10 +6,12 @@ export default function Home() {
     return (
         <div className={styles.page}>
             <Htag tag="h1">Текст</Htag>
-            <Button appearance="primary" type="button">
+            <Button appearance="primary" type="button" arrow='down'>
                 Push me
             </Button>
-            <Button appearance="ghost">Push me</Button>
+            <Button appearance="ghost" arrow="right">
+                Push me
+            </Button>
         </div>
     );
 }
