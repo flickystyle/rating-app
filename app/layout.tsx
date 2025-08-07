@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { Noto_Sans } from 'next/font/google';
 import './globals.css';
+import Header from './_components/Header/Header';
+import Sidebar from './_components/Sidebar/Sidebar';
+import Footer from './_components/Footer/Footer';
 
 const notoSans = Noto_Sans({
     subsets: ['latin'],
@@ -19,7 +22,14 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ru">
-            <body className={`${notoSans.className}`}>{children}</body>
+            <body className={`${notoSans.className}`}>
+                <Header />
+                <div>
+                    <Sidebar />
+                    <div>{children}</div>
+                </div>
+                <Footer />
+            </body>
         </html>
     );
 }

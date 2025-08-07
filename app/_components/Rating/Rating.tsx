@@ -21,6 +21,7 @@ export default function Rating({
     useEffect(() => {
         console.log('inUseEffect', rating);
         constructRating(rating);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [rating]);
 
     function constructRating(currentRating: number) {
